@@ -75,7 +75,6 @@ body {
 }
 
 main {
-  height: 1000px;
   margin:10px auto;
 }
 
@@ -111,7 +110,7 @@ main::after {
   display: table;
   clear: both;
 }
-
+/* colonna sinistra */
 .list-item {
   list-style: none;
   color: green;
@@ -176,4 +175,20 @@ main::after {
 
 .col-right p {
   line-height: 15px;
+}
+/* footer */
+.footer {
+  background-color: white;
+  height: 100px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 5px;
+  color: lightgrey;
+}
+
+.footer hr {
+  width: 98%;
+  margin:auto;
+  color: lightgrey;
+
 }
