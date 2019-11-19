@@ -197,7 +197,7 @@ main::after {
   color: lightgrey;
 }
 
-.footer-bottom::after {
+.bottom-footer::after {
   content: "";
   display: table;
   clear: both;
@@ -220,4 +220,8 @@ footer .bottom-footer .c-footer a {
 footer .bottom-footer .c-footer {
   float: left;
   width: calc(100% / 3);
+}
+
+footer .bottom-footer .c-footer a:hover {
+  color:black;
 }
