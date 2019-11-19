@@ -80,12 +80,20 @@ main {
 }
 
 
-.col-left,.col-right {
+.col-left {
   width: 20%;
   background-color: white;
   float: left;
   padding: 5px;
   border-radius: 5px;
+}
+
+.col-right {
+  width: 20%;
+  float: left;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 9px;
 }
 
 .col-center {
@@ -153,4 +161,19 @@ main::after {
   text-transform: uppercase;
   margin-bottom: 20px;
   text-shadow: 1px 2px lightgrey;
+}
+/* colonna di destra */
+.col-right .widget {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.col-right .widget h2 {
+  margin-bottom: 15px;
+}
+
+.col-right p {
+  line-height: 15px;
 }
