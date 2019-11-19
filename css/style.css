@@ -11,32 +11,47 @@ body {
 
 .page {
   margin: 15px auto;
-  width: 50%;
+  width: 60%;
 }
 
-.header-container {
+.header-top {
   position: relative;
   background-image: url(../img/natural-header.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 250px;
   border: 8px solid white;
 }
 
-.header-top {
+.logo {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.header-top .logo {
-  height: 170px;
+.header-top .logo img {
+  height: 130px;
 }
 
-.header-top h1 {
+
+.header-top .logo h1 {
   color: white;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
+}
+
+
+.header-bottom ul {
+  list-style: none;
+}
+
+.header-bottom ul li {
+  display: inline-block;
+}
+
+.header-bottom ul li a {
+  text-decoration: none;
 }
