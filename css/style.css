@@ -83,8 +83,7 @@ main {
 
 .col-left,.col-right {
   width: 20%;
-  height: 100px;
-  background-color: yellow;
+  background-color: white;
   float: left;
 }
 
@@ -100,4 +99,16 @@ main::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list-item ul li a {
+  text-transform: capitalize;
+
+}
+.list-item  {
+  font-size: 9px;
 }
