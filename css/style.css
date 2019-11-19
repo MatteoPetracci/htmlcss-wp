@@ -57,6 +57,10 @@ body {
   border-right: 1px inset black;
 }
 
+.header-bottom ul li:last-child {
+  border-right: 0;
+}
+
 .header-bottom ul li a {
   text-decoration: none;
   color: white;
@@ -72,12 +76,10 @@ body {
   background-color: black;
   cursor: pointer;
 }
-
+/* main */
 main {
   margin:10px auto;
 }
-
-
 
 main::after {
   content: "";
@@ -119,6 +121,7 @@ main::after {
 .col-left h3 {
   width: 80%;
   padding-left: 5px;
+  margin-bottom: 5px;
 }
 
 .col-left {
@@ -150,6 +153,7 @@ main::after {
   text-transform: uppercase;
   margin-bottom: 20px;
   text-shadow: 1px 2px lightgrey;
+  color: grey;
 }
 /* colonna di destra */
 .col-right {
