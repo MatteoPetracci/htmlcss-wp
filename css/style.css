@@ -75,9 +75,8 @@ body {
 }
 
 main {
-  background-color: grey;
   height: 1000px;
-  margin:auto;
+  margin:10px auto;
 }
 
 
@@ -85,14 +84,18 @@ main {
   width: 20%;
   background-color: white;
   float: left;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .col-center {
   width: 50%;
-  height: 100px;
-  background-color: red;
+  background-color: white;
   float: left;
   margin: 0 5%;
+  font-size: 8px;
+  border-radius: 5px;
+  padding: 15px;
 }
 
 main::after {
@@ -103,12 +106,51 @@ main::after {
 
 .list-item {
   list-style: none;
+  color: green;
 }
 
-.list-item ul li a {
-  text-transform: capitalize;
-
-}
 .list-item  {
   font-size: 9px;
+}
+
+.list-item li {
+  margin-bottom: 9px;
+}
+
+.list-item li a {
+  text-decoration: none;
+  color: green;
+  text-transform: capitalize;
+}
+
+.col-left i,
+.col-left h3 {
+  float: left;
+}
+
+.col-left h3 {
+  width: 80%;
+  padding-left: 5px;
+}
+
+.col-left {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-left i {
+  color: orange;
+}
+/* colonna centrale */
+.col-center p {
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.col-center h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px lightgrey;
 }
