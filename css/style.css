@@ -43,15 +43,26 @@ body {
   text-align: center;
 }
 
+.header-bottom {
+  background-color: #504741;
+}
 
 .header-bottom ul {
   list-style: none;
+  text-align: center;
 }
 
 .header-bottom ul li {
   display: inline-block;
+  padding: 5px;
+
+
 }
 
 .header-bottom ul li a {
   text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: bold;
 }
