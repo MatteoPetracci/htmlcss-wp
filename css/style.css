@@ -71,4 +71,33 @@ body {
 }
 .header-bottom nav ul li:hover {
   background-color: black;
+  cursor: pointer;
+}
+
+main {
+  background-color: grey;
+  height: 1000px;
+  margin:auto;
+}
+
+
+.col-left,.col-right {
+  width: 20%;
+  height: 100px;
+  background-color: yellow;
+  float: left;
+}
+
+.col-center {
+  width: 50%;
+  height: 100px;
+  background-color: red;
+  float: left;
+  margin: 0 5%;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
 }
