@@ -178,17 +178,46 @@ main::after {
 }
 /* footer */
 .footer {
+  position: relative;
   background-color: white;
   height: 100px;
   border-radius: 5px;
-  text-align: center;
   padding-top: 5px;
   color: lightgrey;
+  text-align: center;
+}
+
+.footer .top-footer span {
+  font-size: 12px;
 }
 
 .footer hr {
   width: 98%;
   margin:auto;
   color: lightgrey;
+}
 
+.footer-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .bottom-footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding-top: 15px;
+}
+
+footer .bottom-footer .c-footer a {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+footer .bottom-footer .c-footer {
+  float: left;
+  width: calc(100% / 3);
 }
